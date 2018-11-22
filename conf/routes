@@ -1,0 +1,3 @@
+GET    /rest/accounts                   accounts.controllers.AccountsController.getAccouts()
+POST   /rest/accounts                   accounts.controllers.AccountsController.create()
+DELETE /rest/accounts/:id               accounts.controllers.AccountsController.delete(id)
